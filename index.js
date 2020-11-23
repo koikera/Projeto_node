@@ -5,9 +5,6 @@ app.get('/', function(req,res){
   res.json({git : 'https://github.com/koikera/Projeto_node'})
 })
 
-app.get('/', function(req,res){
-  res.json({firstName : 'Matheus Comelli', lastName: 'Comelli'})
-})
 
 app.get('/users', function(req,res){
 
